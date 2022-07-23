@@ -8,7 +8,7 @@ terraform {
      }
 
     random = {
-        sousource = "hashicorp/random"
+        source = "hashicorp/random"
         version = "=> 3.0"
     } 
   }
