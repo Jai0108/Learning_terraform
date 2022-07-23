@@ -19,7 +19,10 @@ provider "azurerm" {
 
 }
 
+#  azure resource creation
+
 resource "azurerm_resource_group" "rg_demo1" {
   name     = "resource_demo"
   location = "Central India"
+
 }
