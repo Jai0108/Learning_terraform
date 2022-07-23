@@ -28,7 +28,7 @@ resource "azurerm_public_ip" "mypublicip" {
   name = "mypublicip"
   resource_group_name = azurerm_resource_group.myrg1.name
   location = azurerm_resource_group.myrg1.location
-  allocation_method = "dyanamic"
+  allocation_method = "Dyanamic"
 
   tags = {
     env = "dev"
